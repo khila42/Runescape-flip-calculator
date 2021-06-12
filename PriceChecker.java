@@ -50,7 +50,7 @@ class PriceChecker {
                 (all on one line, line breaks by me are for readability)
                 And that format is the exact same for all the items
                 */
-                String url = "https://rsbuddy.com/exchange/summary.json";
+                String url = "https://prices.runescape.wiki/api/v1/osrs";
                 String json =
                         new Scanner(new URL(url).openStream(), "UTF-8").useDelimiter("\\A").next();
 
